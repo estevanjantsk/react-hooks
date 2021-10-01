@@ -1,14 +1,35 @@
 import React from 'react';
 import TodoApp from './components/TodoApp';
+import EffectApp from './components/EffectApp';
+import EffectTimer from './components/EffectTimer';
 
 const App = ({ title }) => (
   <div>
-    {title}
     <div>
-      useReducer sample
+      {title}
     </div>
-    <div>
-      <TodoApp />
+    <div style={{ margin: '10px 0' }}>
+      <div>
+        useReducer sample
+      </div>
+      <div>
+        <TodoApp />
+      </div>
+    </div>
+
+    <div style={{ margin: '10px 0' }}>
+      <div>
+        useEffect sample
+      </div>
+      <div>
+        <EffectApp />
+      </div>
+      <div>
+        timer sample
+      </div>
+      <div>
+        <EffectTimer />
+      </div>
     </div>
   </div>
 );
