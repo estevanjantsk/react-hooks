@@ -2,6 +2,7 @@ import React from 'react';
 import TodoApp from './components/TodoApp';
 import EffectApp from './components/EffectApp';
 import EffectTimer from './components/EffectTimer';
+import RefApp from './components/RefApp';
 
 const App = ({ title }) => (
   <div>
@@ -29,6 +30,13 @@ const App = ({ title }) => (
       </div>
       <div>
         <EffectTimer />
+      </div>
+    </div>
+
+    <div style={{ margin: '10px 0' }}>
+      <div>useRef sample</div>
+      <div>
+        <RefApp />
       </div>
     </div>
   </div>
