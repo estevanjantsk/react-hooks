@@ -4,6 +4,7 @@ import EffectApp from './components/EffectApp';
 import EffectTimer from './components/EffectTimer';
 import RefApp from './components/RefApp';
 import MemoApp from './components/MemoApp';
+import CallbackApp from './components/CallbackApp';
 
 const App = ({ title }) => (
   <div>
@@ -45,6 +46,13 @@ const App = ({ title }) => (
       <div>useMemo sample</div>
       <div>
         <MemoApp />
+      </div>
+    </div>
+
+    <div style={{ margin: '10px 0' }}>
+      <div>useCallback sample</div>
+      <div>
+        <CallbackApp />
       </div>
     </div>
   </div>
