@@ -3,6 +3,7 @@ import TodoApp from './components/TodoApp';
 import EffectApp from './components/EffectApp';
 import EffectTimer from './components/EffectTimer';
 import RefApp from './components/RefApp';
+import MemoApp from './components/MemoApp';
 
 const App = ({ title }) => (
   <div>
@@ -37,6 +38,13 @@ const App = ({ title }) => (
       <div>useRef sample</div>
       <div>
         <RefApp />
+      </div>
+    </div>
+
+    <div style={{ margin: '10px 0' }}>
+      <div>useMemo sample</div>
+      <div>
+        <MemoApp />
       </div>
     </div>
   </div>
